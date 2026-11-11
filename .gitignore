@@ -1,0 +1,26 @@
+# Secretos y configuración real
+config.php
+*.env
+.env*
+*.pem
+*.key
+
+# Bases de datos y respaldos con datos
+*.sql
+*.sql.gz
+*.dump
+moodledata/
+backups/
+
+# Datos reales de usuarios y encuestas
+usuarios_real*.csv
+datos_reales*/
+encuestas_originales/
+consentimientos/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
